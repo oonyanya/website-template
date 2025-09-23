@@ -55,6 +55,9 @@ summary: [summary]
 本番環境ではGoogleのクライアントIDの設定が必要になります
 PHP 8.1.6で動作確認済みです
 
+## 年齢確認がしたい
+.htaccessの当該箇所をコメントアウトすれば動作します
+
 ## アップロードするには
 WinSCPをインストール後、deploy.cmdを実行してください
 実行後、deploy.iniが生成されているので、「FTP_SERVER_HOST=DUMMY」のDUMMYの部分を適切な値にしてください
