@@ -17,5 +17,6 @@ nav.global_nav
     each item in get_pages()
       li.dropdown-parent
         a(href=`/${item.path}`) #{item.title}
-    li
-      a(href=`${url_for_i18n('archives')}`) #{res.index.oldarchives_title}
+    if config.archive_generator.enabled == true
+      li
+        a(href=`${url_for_i18n('archives')}`) #{res.index.oldarchives_title}

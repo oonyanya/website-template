@@ -25,6 +25,9 @@ theme: singleline
 include:
   - .htaccess
 
+archive_generator:
+  enabled: true
+
 highlight:
   enable: true
   line_number: false
