@@ -39,10 +39,10 @@
 		},
 		"index": {
 			"prerelease_title":"NEWS",
-			"oldprerelease_title":"OLD NEWS",
-			"oldprerelease_summary":"This is old news list",
-			"oldprerelease_title_by_category":"CATEGORIES LIST",
-			"oldprerelease_title_by_tag":"TAGS LIST"
+			"oldarchives_title":"OLD NEWS",
+			"oldarchives_summary":"OLD NEWS LIST",
+			"oldarchives_title_by_category":"CATEGORIES LIST",
+			"oldarchives_title_by_tag":"TAGS LIST"
 		}
 	}
 }
