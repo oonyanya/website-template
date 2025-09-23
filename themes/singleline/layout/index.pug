@@ -18,10 +18,11 @@ block content
 						- if(item.thumbnail != null)
 							img(src=`${item.thumbnail}`)
 						p #{item.summary}
-				#summary
-					h3
-						a(href=`${url_for_i18n('archives')}`) #{res.index.oldarchives_title}
-					p #{res.index.oldarchives_summary}
+				if config.archive_generator.enabled == true
+					#summary
+						h3
+							a(href=`${url_for_i18n('archives')}`) #{res.index.oldarchives_title}
+						p #{res.index.oldarchives_summary}
 
 block custom_footer
 	include _footer
