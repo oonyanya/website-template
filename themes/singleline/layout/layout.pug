@@ -4,6 +4,7 @@ head
 	meta(charset='utf-8')
 	title #{page.title}
 	meta(name='viewport' content='width=device-width, initial-scale=1')
+	meta(description='' + config.description)
 	| !{css('/css/layout.css')}
 	| !{css('/css/base.css')}
 	| !{js('/script/hover.js')}
